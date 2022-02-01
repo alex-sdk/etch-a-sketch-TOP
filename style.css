@@ -17,7 +17,6 @@ h1{
 }
 div{
     margin: 0;
-    border: 1px solid black;
 }
 .btn{
     display: flex;
@@ -26,5 +25,5 @@ div{
     align-items: center;
 }
 .gridsquare{
-    padding: 1vh;
+    border: 1px solid black;
 }

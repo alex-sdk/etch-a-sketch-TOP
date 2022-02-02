@@ -3,10 +3,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 h1{
-    color: blue;
+    color: red;
     text-align: center;
+    font-family: 'Bungee Shade', cursive, sans-serif;
+    font-weight: bold;
 }
 .container{
     display: flex;
@@ -14,16 +17,31 @@ h1{
     align-items: center;
     width: 700px;
     height: 700px;
+    background-color: white;
 }
 div{
     margin: 0;
 }
-.btn{
+.btnContainer{
     display: flex;
-    margin-top: 30px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
-.gridsquare{
-    border: 1px solid black;
+.container{
+    border: 50px solid red;
+    border-radius: 20px;
+}
+.button{
+    padding: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+    color: white;
+    background-color: black;
+}
+footer{
+    color: white;
+    margin: 20px;
 }
